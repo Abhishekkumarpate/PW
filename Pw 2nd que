@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b;
+
+    // Input values of 'a' and 'b' from the keyboard
+    cout << "Enter the value of a: ";
+    cin >> a;
+    
+    cout << "Enter the value of b: ";
+    cin >> b;
+
+    // Check the conditions 'a < 50' and 'a < b'
+    if (a < 50 && a < b) {
+        cout << "Both conditions 'a < 50' and 'a < b' are true." << endl;
+    } else {
+        cout << "At least one of the conditions is false." << endl;
+    }
+
+    return 0;
+}
