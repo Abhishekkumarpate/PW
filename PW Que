@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int total_pupils = 45;
+    int total_boys = 25;
+    int boys_with_grade_A = 17;
+    
+    double total_students_with_grade_A = 0.8 * boys_with_grade_A;
+
+    int girls_with_grade_A = total_students_with_grade_A - boys_with_grade_A;
+
+    cout << "Number of girls who received grades \"A\": " << girls_with_grade_A << endl;
+
+    return 0;
+}
